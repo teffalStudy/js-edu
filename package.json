@@ -1,0 +1,29 @@
+{
+  "name": "js-edu",
+  "version": "1.0.0",
+  "description": "task for 1 stage of rs school",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha index.test.js",
+    "postinstall": "node postinstall.js"
+  },
+  "engines": {
+    "node": "<=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davojta/js-edu.git"
+  },
+  "author": "Dzianis Sheka <dzianis.sheka@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davojta/js-edu/issues"
+  },
+  "homepage": "https://github.com/davojta/js-edu#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "colors": "^1.4.0",
+    "mocha": "^6.2.0",
+    "semver": "^6.3.0"
+  }
+}
